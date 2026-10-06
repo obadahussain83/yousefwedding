@@ -39,7 +39,7 @@ export default function Details() {
             <div className="flex-1">
               <p className="text-[11px] text-gold-dark tracking-[0.2em] mb-0.5">المكان</p>
               <p className="text-lg font-medium text-ink leading-snug">{WEDDING.venue}</p>
-              <p className="text-sm text-ink/60">{WEDDING.city}</p>
+              <p className="text-sm text-ink/60">{WEDDING.venueSubtitle}</p>
             </div>
           </div>
 
@@ -64,6 +64,19 @@ export default function Details() {
               <p className="text-lg font-medium text-ink leading-snug">{WEDDING.dateLabel}</p>
               <p className="text-sm text-ink/60">{WEDDING.timeLabel}</p>
             </div>
+          </div>
+
+          <div className="my-4 flex items-center gap-2">
+            <span className="h-px flex-1 bg-gold/30" />
+            <span className="w-1.5 h-1.5 rotate-45 border border-gold/60" />
+            <span className="h-px flex-1 bg-gold/30" />
+          </div>
+
+          <div className="text-center">
+            <p className="text-[11px] text-gold-dark tracking-[0.2em] mb-1">التجمع</p>
+            <p className="text-sm font-medium leading-relaxed text-ink/75">
+              {WEDDING.gatheringLine}
+            </p>
           </div>
         </div>
       </Reveal>

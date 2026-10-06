@@ -1,23 +1,26 @@
 export const WEDDING = {
-  groomName: "يزن",
-  brideName: "منى",
+  groomName: "يوسف",
+  brideName: "لمى",
   groomInitial: "Y",
-  brideInitial: "M",
-  groomFullName: "يزن أمجد إبراهيم عرار",
-  groomKunya: "أبو محمد",
-  brideFullName: "منى مازن ديب سلامة",
-  brideFamily: "أبناء المرحوم ماهر سلامة",
+  brideInitial: "L",
+  groomFullName: "يوسف سمارة عيسى",
+  groomFatherName: "سمارة عيسى",
+  groomKunya: "أبو فراس",
+  brideFullName: "لمى محمد عطايا",
+  brideFatherName: "محمد عطايا",
+  brideFamily: "أبو وسام",
 
-  weddingDate: new Date(2026, 9, 9, 19, 0, 0),
-  dateLabel: "الجمعة 09.10.2026",
-  timeLabel: "7:00-10:00 pm",
+  weddingDate: new Date(2026, 9, 10, 18, 0, 0),
+  dateLabel: "السبت 2026/10/10",
+  timeLabel: "من السادسة حتى التاسعة مساءً",
+  gatheringLine: "التجمع أمام منزل والد العريس في تمام الساعة الخامسة مساءً في اللبن الغربي",
 
-  city: "عناتا",
-  venue: "قلعة الشام",
-  venueSubtitle: "الكائنة في عناتا",
-  venueMapUrl: "https://maps.google.com/?q=%D9%82%D9%84%D8%B9%D8%A9+%D8%A7%D9%84%D8%B4%D8%A7%D9%85+%D8%B9%D9%86%D8%A7%D8%AA%D8%A7",
+  city: "شقبا",
+  venue: "قاعات شقبا الكبرى",
+  venueSubtitle: "الكائنة في شقبا",
+  venueMapUrl: "https://maps.google.com/?q=%D9%82%D8%A7%D8%B9%D8%A7%D8%AA%20%D8%B4%D9%82%D8%A8%D8%A7%20%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89%20%D8%B4%D9%82%D8%A8%D8%A7",
   venueMapEmbedUrl:
-    "https://www.google.com/maps?q=%D9%82%D9%84%D8%B9%D8%A9+%D8%A7%D9%84%D8%B4%D8%A7%D9%85+%D8%B9%D9%86%D8%A7%D8%AA%D8%A7&output=embed",
+    "https://www.google.com/maps?q=%D9%82%D8%A7%D8%B9%D8%A7%D8%AA%20%D8%B4%D9%82%D8%A8%D8%A7%20%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89%20%D8%B4%D9%82%D8%A8%D8%A7&output=embed",
 
   galleryImages: [
     "/gallery/photo-1.jpg",
@@ -25,20 +28,22 @@ export const WEDDING = {
   ],
 
   program: [
-    { time: "الجمعة 09.10.2026", title: "حفل الزفاف في قلعة الشام الكائنة في عناتا", icon: "party" },
-    { time: "7:00-10:00 pm", title: "استقبال الضيوف والتهاني", icon: "welcome" },
-    { time: "تنويه", title: "يمنع التصوير في قاعة النساء", icon: "rings" },
+    { time: "السبت 2026/10/10", title: "حفل الزفاف في قاعات شقبا الكبرى الكائنة في شقبا", icon: "party" },
+    { time: "6:00-9:00 pm", title: "استقبال الضيوف والتهاني", icon: "welcome" },
+    { time: "5:00 pm", title: "التجمع أمام منزل والد العريس في اللبن الغربي", icon: "rings" },
   ],
 
   invitationLine:
     "سبحان من جمع القلوب بفضله، طاب اللقاء وزاد تشريفكم",
   invitationVerse:
     "وعلى رحاب الود عمر دارها، في ليلة قد أشرقت أنوارها",
-  familiesLine: "أفراح آل عرار وآل سلامة",
+  publicInvitationText: "دعوة عامة",
+  familiesLine: "أفراح آل عيسى وآل عطايا",
   hostLine:
-    "يتشرفون بدعوتكم لحضور حفل زفاف",
-  blessingLine: "وبارك عيشة تعالى",
-  noPhotosLine: "يمنع التصوير في قاعة النساء",
+    "يتشرفان بدعوتكم لحضور حفل زفاف",
+  willOfGodLine: "وذلك بمشيئته تعالى",
+  blessingLine: "بارك الله لهما وبارك عليهما وجمع بينهما في خير",
+  noPhotosLine: "",
   heroLine: "تكتمل فرحتنا بحضوركم ومشاركتكم أجمل اللحظات",
   thankYouMessage: "دامت دياركم عامرة بالأفراح",
   tapToOpenText: "اضغط لفتح الدعوة",

@@ -29,6 +29,9 @@ export default function Hero() {
       <CornerFlourish className="bottom-5 right-5" rotate={270} />
 
       <Reveal>
+        <p className="mb-3 inline-flex rounded-full border border-gold/40 bg-white/35 px-4 py-1 text-sm font-bold text-ink/75 shadow-sm">
+          {WEDDING.publicInvitationText}
+        </p>
         <div className="mb-4 flex items-center justify-center gap-2 text-gold-dark">
           <span className="h-px w-8 bg-gold/60" />
           <svg viewBox="0 0 16 16" className="h-3 w-3" fill="currentColor" aria-hidden>
@@ -67,9 +70,9 @@ export default function Hero() {
 
       <Reveal delay={0.42}>
         <div className="grid w-full max-w-[390px] grid-cols-[1fr_34px_1fr] items-start gap-3">
-          <PersonBlock title="السيد" name="أمجد إبراهيم عرار" note={`(${WEDDING.groomKunya})`} />
+          <PersonBlock title="السيد" name={WEDDING.groomFatherName} note={`(${WEDDING.groomKunya})`} />
           <NameKnot />
-          <PersonBlock title="السيد" name="مازن ديب سلامة" note={`(${WEDDING.brideFamily})`} />
+          <PersonBlock title="السيد" name={WEDDING.brideFatherName} note={`(${WEDDING.brideFamily})`} />
         </div>
       </Reveal>
 
@@ -77,11 +80,17 @@ export default function Hero() {
         <p className="mt-7 max-w-[330px] font-arabic text-2xl leading-loose text-ink">
           {WEDDING.hostLine}
         </p>
+        <p className="mt-2 text-sm font-semibold leading-relaxed text-ink/70">
+          {WEDDING.venue} {WEDDING.venueSubtitle}
+        </p>
         <div className="mx-auto mt-1 grid w-full max-w-[260px] grid-cols-2 text-sm font-semibold text-ink/75">
           <span>نجله</span>
-          <span>كريمتهم</span>
+          <span>كريمته</span>
         </div>
         <CoupleSignature />
+        <p className="mt-3 text-base font-bold text-ink/80">
+          {WEDDING.willOfGodLine}
+        </p>
         <div className="mt-4 flex items-end justify-center gap-1 opacity-70">
           <FloralBranch className="w-20" flip />
           <FloralBranch className="w-20" />

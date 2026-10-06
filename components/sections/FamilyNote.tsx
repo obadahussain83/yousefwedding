@@ -35,7 +35,7 @@ export default function FamilyNote() {
           <p className="text-base leading-relaxed text-ink/70">
             نتشرف بكم في ليلة زفاف {WEDDING.groomName} و{WEDDING.brideName}
             <br />
-            ونسأل الله أن يجعلها بداية خير ومحبة
+            {WEDDING.blessingLine}
           </p>
         </div>
       </Reveal>
